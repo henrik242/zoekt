@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 func TestQueue(t *testing.T) {

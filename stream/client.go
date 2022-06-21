@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
 )
 
 // NewClient returns a client which implements StreamSearch. If httpClient is

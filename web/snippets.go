@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 func (s *Server) formatResults(result *zoekt.SearchResult, query string, localPrint bool) ([]*FileMatch, error) {

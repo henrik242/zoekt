@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/build"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/build"
 )
 
 func TestCleanup(t *testing.T) {

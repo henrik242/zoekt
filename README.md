@@ -7,31 +7,31 @@ This is a fast text search engine, intended for use with source
 code. (Pronunciation: roughly as you would pronounce "zooked" in English)
 
 **Note:** This is a [Sourcegraph](https://github.com/sourcegraph/zoekt) fork
-of [github.com/google/zoekt](https://github.com/google/zoekt). It is now the
+of [github.com/henrik242/zoekt](https://github.com/henrik242/zoekt). It is now the
 main maintained source of Zoekt. The go module is still
-`github.com/google/zoekt` for now, but will be updated in the future.
+`github.com/henrik242/zoekt` for now, but will be updated in the future.
 
 # INSTRUCTIONS
 
 ## Downloading
 
-    go get github.com/google/zoekt/
+    go get github.com/henrik242/zoekt/
 
 ## Indexing
 
 ### Directory
 
-    go install github.com/google/zoekt/cmd/zoekt-index
+    go install github.com/henrik242/zoekt/cmd/zoekt-index
     $GOPATH/bin/zoekt-index .
 
 ### Git repository
 
-    go install github.com/google/zoekt/cmd/zoekt-git-index
+    go install github.com/henrik242/zoekt/cmd/zoekt-git-index
     $GOPATH/bin/zoekt-git-index -branches master,stable-1.4 -prefix origin/ .
 
 ### Repo repositories
 
-    go install github.com/google/zoekt/cmd/zoekt-{repo-index,mirror-gitiles}
+    go install github.com/henrik242/zoekt/cmd/zoekt-{repo-index,mirror-gitiles}
     zoekt-mirror-gitiles -dest ~/repos/ https://gfiber.googlesource.com
     zoekt-repo-index \
         -name gfiber \
@@ -45,7 +45,7 @@ main maintained source of Zoekt. The go module is still
 
 ### Web interface
 
-    go install github.com/google/zoekt/cmd/zoekt-webserver
+    go install github.com/henrik242/zoekt/cmd/zoekt-webserver
     $GOPATH/bin/zoekt-webserver -listen :6070
 
 ### JSON API
@@ -62,7 +62,7 @@ The response data is a JSON object. You can refer to [web.ApiSearchResult](https
 
 ### CLI
 
-    go install github.com/google/zoekt/cmd/zoekt
+    go install github.com/henrik242/zoekt/cmd/zoekt
     $GOPATH/bin/zoekt 'ngram f:READ'
 
 ## Installation
@@ -84,7 +84,7 @@ eg.
 
 Zoekt comes with a small service management program:
 
-    go install github.com/google/zoekt/cmd/zoekt-indexserver
+    go install github.com/henrik242/zoekt/cmd/zoekt-indexserver
 
     cat << EOF > config.json
     [{"GithubUser": "username"},
@@ -123,7 +123,7 @@ Originally this fork contained some changes that do not make sense to upstream
 and or have not yet been upstreamed. However, this is now the defacto source
 for Zoekt. This section will remain for historical reasons and contains
 outdated information. It can be removed once the dust settles on moving from
-google/zoekt to sourcegraph/zoekt. Differences:
+henrik242/zoekt to sourcegraph/zoekt. Differences:
 
 - [zoekt-sourcegraph-indexserver](cmd/zoekt-sourcegraph-indexserver/main.go)
   is a Sourcegraph specific command which indexes all enabled repositories on

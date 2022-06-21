@@ -3,9 +3,9 @@ package shards
 import (
 	"context"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
-	"github.com/google/zoekt/trace"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
+	"github.com/henrik242/zoekt/trace"
 )
 
 // typeRepoSearcher evaluates all type:repo sub-queries before sending the query

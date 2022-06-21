@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 func merge(dstDir string, names []string) error {

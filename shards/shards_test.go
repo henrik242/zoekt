@@ -33,9 +33,9 @@ import (
 	"github.com/RoaringBitmap/roaring"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
-	"github.com/google/zoekt/stream"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
+	"github.com/henrik242/zoekt/stream"
 	"github.com/grafana/regexp"
 )
 

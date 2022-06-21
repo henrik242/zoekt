@@ -8,9 +8,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
-	"github.com/google/zoekt/shards"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
+	"github.com/henrik242/zoekt/shards"
 )
 
 func TestMerge(t *testing.T) {

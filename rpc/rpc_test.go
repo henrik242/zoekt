@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/internal/mockSearcher"
-	"github.com/google/zoekt/query"
-	"github.com/google/zoekt/rpc"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/internal/mockSearcher"
+	"github.com/henrik242/zoekt/query"
+	"github.com/henrik242/zoekt/rpc"
 )
 
 func TestClientServer(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/build"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/build"
 )
 
 func TestHasMultipleShards(t *testing.T) {

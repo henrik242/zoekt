@@ -1,4 +1,4 @@
-module github.com/google/zoekt
+module github.com/henrik242/zoekt
 
 require (
 	cloud.google.com/go/profiler v0.2.0

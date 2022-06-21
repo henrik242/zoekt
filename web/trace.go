@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
-	"github.com/google/zoekt/trace"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
+	"github.com/henrik242/zoekt/trace"
 	"github.com/opentracing/opentracing-go"
 )
 

@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/ctags"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/ctags"
 )
 
 func TestTagsToSections(t *testing.T) {

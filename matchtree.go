@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt/query"
 	"github.com/grafana/regexp"
 )
 

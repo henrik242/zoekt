@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 	"github.com/grafana/regexp"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

@@ -3,7 +3,7 @@ FROM golang:1.17.6-alpine3.15 AS builder
 RUN apk add --no-cache ca-certificates
 
 ENV CGO_ENABLED=0 GO111MODULE=on
-WORKDIR /go/src/github.com/google/zoekt
+WORKDIR /go/src/github.com/henrik242/zoekt
 
 # Cache dependencies
 COPY go.mod go.sum ./
@@ -11,7 +11,7 @@ RUN go mod download
 
 COPY . ./
 ARG VERSION
-RUN go install -ldflags "-X github.com/google/zoekt.Version=$VERSION" ./cmd/...
+RUN go install -ldflags "-X github.com/henrik242/zoekt.Version=$VERSION" ./cmd/...
 
 FROM alpine:3.15.0 AS zoekt
 

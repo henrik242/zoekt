@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/query"
 )
 
 // defaultTimeout is the maximum amount of time a search request should

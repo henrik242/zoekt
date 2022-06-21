@@ -12,7 +12,7 @@ import (
 
 	"github.com/peterbourgon/ff/v3/ffcli"
 
-	"github.com/google/zoekt/build"
+	"github.com/henrik242/zoekt/build"
 )
 
 func debugIndex() *ffcli.Command {

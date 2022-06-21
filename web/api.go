@@ -17,7 +17,7 @@ package web
 import (
 	"time"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 type ApiSearchResult struct {

@@ -1,4 +1,4 @@
 language: go
 go:
   - "1.x"
-go_import_path: github.com/google/zoekt
+go_import_path: github.com/henrik242/zoekt

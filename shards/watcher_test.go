@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 type loggingLoader struct {

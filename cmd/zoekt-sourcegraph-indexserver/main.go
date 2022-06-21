@@ -35,10 +35,10 @@ import (
 	"go.uber.org/automaxprocs/maxprocs"
 	"golang.org/x/net/trace"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/build"
-	"github.com/google/zoekt/debugserver"
-	"github.com/google/zoekt/internal/profiler"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/build"
+	"github.com/henrik242/zoekt/debugserver"
+	"github.com/henrik242/zoekt/internal/profiler"
 )
 
 var (

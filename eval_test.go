@@ -24,7 +24,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt/query"
 	"github.com/grafana/regexp"
 )
 

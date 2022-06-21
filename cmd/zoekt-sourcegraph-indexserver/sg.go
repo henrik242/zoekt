@@ -23,7 +23,7 @@ import (
 	retryablehttp "github.com/hashicorp/go-retryablehttp"
 	"golang.org/x/net/trace"
 
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 // SourcegraphListResult is the return value of Sourcegraph.List. It is its

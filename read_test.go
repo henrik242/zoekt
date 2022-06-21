@@ -30,7 +30,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt/query"
 )
 
 var update = flag.Bool("update", false, "update golden files")

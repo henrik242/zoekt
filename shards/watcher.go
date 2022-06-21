@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/google/zoekt"
+	"github.com/henrik242/zoekt"
 )
 
 type shardLoader interface {

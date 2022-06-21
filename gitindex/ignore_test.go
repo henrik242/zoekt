@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/zoekt/query"
+	"github.com/henrik242/zoekt/query"
 
-	"github.com/google/zoekt"
-	"github.com/google/zoekt/build"
-	"github.com/google/zoekt/shards"
+	"github.com/henrik242/zoekt"
+	"github.com/henrik242/zoekt/build"
+	"github.com/henrik242/zoekt/shards"
 )
 
 func createSourcegraphignoreRepo(dir string) error {
